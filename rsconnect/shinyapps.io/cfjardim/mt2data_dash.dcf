@@ -1,0 +1,14 @@
+name: mt2data_dash
+title: mt2data_dash
+username:
+account: cfjardim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6512355
+bundleId: 6024355
+url: https://cfjardim.shinyapps.io/mt2data_dash/
+when: 1655735526.39132
+lastSyncTime: 1655735526.39133
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 4inteligence.png

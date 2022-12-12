@@ -1,0 +1,14 @@
+name: Gapminder_CursoR
+title: Gapminder_CursoR
+username:
+account: cfjardim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7113137
+bundleId: 6406032
+url: https://cfjardim.shinyapps.io/Gapminder_CursoR/
+when: 1665840933.28054
+lastSyncTime: 1665840933.28055
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: highchart_cards.R|R/web_scrapping_marquee.R

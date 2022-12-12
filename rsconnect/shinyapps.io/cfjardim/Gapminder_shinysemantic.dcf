@@ -1,0 +1,14 @@
+name: Gapminder_shinysemantic
+title: Gapminder_shinysemantic
+username:
+account: cfjardim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7832025
+bundleId: 6627092
+url: https://cfjardim.shinyapps.io/Gapminder_shinysemantic/
+when: 1670852591.45599
+lastSyncTime: 1670852591.456
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app_semantic_dashboard.R|cards_shiny.png|continents_module_main.R|delete/continents_modules.R|example.R|example2.R|lixooooo.R|shiny_semantic.R|shiny_semantic_fluent.R|shiny_semantic_fluent_navbar_tabset.R

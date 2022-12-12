@@ -1,0 +1,312 @@
+html {
+font-size: 16px;
+}
+
+*,
+*::after,
+*::before{
+       box-sizing:border-box;
+      /* margin:0 !important;*/
+
+
+
+  }
+
+h1,h2,h4,h5,h6{
+
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+
+  }
+
+span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: whitesmoke;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #333F47;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid whitesmoke;  /* creates padding around scroll thumb */
+}
+
+
+.ui.top.menu.dashboard-header,
+.ui.grid.pusher.dashboard-body,
+#uisidebar{
+  /* Created with https://www.css-gradient.com */
+  background: #C2E3CC;
+  background: -webkit-linear-gradient(top left, #C2E3CC, #314C81);
+  background: -moz-linear-gradient(top left, #C2E3CC, #314C81);
+  background: linear-gradient(to bottom right, #C2E3CC, #314C81);
+
+
+  background-image: linear-gradient(
+  315deg,
+  hsl(0deg 0% 0%) 0%,
+  hsl(0deg 0% 35%) 13%,
+  hsl(0deg 0% 50%) 25%,
+  hsl(0deg 0% 61%) 38%,
+  hsl(0deg 0% 71%) 50%,
+  hsl(0deg 0% 79%) 63%,
+  hsl(0deg 0% 87%) 76%,
+  hsl(0deg 0% 94%) 88%,
+  hsl(0deg 0% 100%) 100%
+);
+}
+
+.ui.ui.menu .teal.active.item,
+.ui.ui.teal.menu .active.item,
+.ui.ui.teal.menu .active.item:hover{
+
+  color: whitesmoke;
+
+}
+
+#uisidebar p{
+  font-size: 1.25em !important;
+}
+
+.five.wide.column {
+    flex: 1;
+}
+
+.top_cards{
+  display: flex;
+  flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+h1.cards_title {
+    color: whitesmoke;
+    background: black!important;
+    width: 100%;
+    margin: 0px;
+    padding: 1em;
+    font-weight: 900;
+}
+
+.ui.cards {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ui.card>.content,
+.ui.cards>.card>.content{
+ padding:.0;
+ margin:0px;
+}
+
+.header {
+    background: black;
+    color: white !important;
+    font-size: 1em !important;
+    padding: 0.25em;
+}
+
+
+.ui.segment{
+  border:none;
+}
+
+
+div#top_left,
+div#top_right,
+div#bottom_left,
+div#bottom_right{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+a.item {
+    font-size: .75em;
+}
+
+.ui.segment.raised{
+  border:1px solid transparent !important;
+}
+
+
+#icons {
+  display: flex;
+    font-weight: 900;
+
+    font-size: 1.5em;
+
+    align-items: center;
+    gap: 2em;
+}
+
+
+
+.download_table_btn {
+    margin: 1em;
+    display: inline-block;
+    border: 5px solid black;
+    background: black;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 4px;
+    font-size: .75em;
+}
+
+#panel_header {
+
+}
+
+
+
+.tab-pane {
+    padding: 1em;
+}
+
+/**********************************************************/
+/************ SLIDERS *********************/
+/**********************************************************/
+
+
+/**********************************/
+/***********COUNTRIES *************/
+/**********************************/
+
+span.irs-bar.irs-bar--single{
+  left: 0px;
+    width: 98.4973%;
+    background: #DEEBDD;
+    border: 2px solid #DEEBDD;
+}
+
+.content > .header{
+  display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    font-size: .75em !important;
+    padding: .5em !important;
+}
+
+.content .header .description{
+  height: 100%;
+}
+
+.description_country{
+ color: black !important;
+ display: flex;
+ padding: .5em;
+
+}
+
+.content .description_life,
+.content .description_pop,
+.content .description_gdp{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.description_country .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.description_country .info h6 {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 800;
+    margin: 0em 0.5em;
+    font-size: .8em;
+}
+
+#countries_panels_rows_1,
+#countries_panels_rows_2{
+
+}
+
+#panels_cards{
+
+}
+
+#panels_fluidrows{
+
+
+}
+
+
+/**********************************/
+/***********GENERAL OVERVIEW*******/
+/**********************************/
+#page{
+
+}
+
+#page #header{
+
+}
+
+#page #cards{
+
+}
+
+#page #header,
+#page #second_row,
+#page #third_row{
+
+
+}
+
+.general_overview .ui.ui.ui.black.ribbon.label {
+    border-color: #020203;
+    width: 100%;
+    margin-bottom: 1.25em;
+}
+
+.general_overview label {
+    font-size: 1.25em !important;
+}
+
+div#panel_controls {
+    display: flex;
+    gap: 12em;
+
+    justify-content: center;
+}
+
+div#panel_controls .ui.form {
+    font-size: .75em;
+    font-weight: 900;
+}
+
+div#panel_controls .ui.form .field text {
+    font-size: 1em;
+}
+
+.ui.form .field .dropdown, .ui.form .field .dropdown .menu>.item {
+    font-size: .75rem;
+}
+
+h2.split_chart_title {
+    color: black !important;
+    font-weight: 900;
+    font-size: 1.25em;
+        width: 100%;
+}
+
+
+
+
+
