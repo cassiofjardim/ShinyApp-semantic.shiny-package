@@ -1,7 +1,5 @@
 # This is Shiny App using shiny.semantic package (Appsilon)
 
-
-
 <h1 align="center" id="title">Hello 👋, My name is Cassio Felix</h1>
 
 <!-- Social Media & Contact Info -->
