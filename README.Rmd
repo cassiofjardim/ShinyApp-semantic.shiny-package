@@ -11,18 +11,20 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{css, echo=FALSE}
-h2 {
-  font-size: 232px;
-  color: red;
+<style>
+.heading1 {
+    color: red;
+    font-weight:700;
+    font-size: 35px;
 }
+.heading2 {
+    color: blue;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
 
-#nextsteps {
-   color: blue;
-}
 
-.emphasized {
-   font-size: 1.2em;
-}
 ```
 
 
